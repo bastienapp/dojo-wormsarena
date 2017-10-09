@@ -18,7 +18,7 @@ class Arena {
 			} else {
 				player1.setLife(player1.getLife() - player2.getDamage());
 				if (player1.getLife() <= 0) {
-					// player1 KO, player wins
+					// player1 KO, player2 wins
 					return player2;
 				}
 			}
