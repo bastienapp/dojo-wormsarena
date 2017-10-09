@@ -6,5 +6,5 @@ Chaque vers a un nombre de points de vie et un nombre de points de dégâts qu'i
 
 Rappel des commandes junit :
 
-    javac -cp .:junit-4.12.jar Test.java
-    java -cp .:junit-4.12.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore Test
+    javac -cp .:junit-4.12.jar FightTest.java
+    java -cp .:junit-4.12.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore FightTest
